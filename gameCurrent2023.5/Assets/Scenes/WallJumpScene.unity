@@ -130,6 +130,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3910563459705439112, guid: 00610e08c31c0b94faa06a010795c661, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.459
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910563459705439112, guid: 00610e08c31c0b94faa06a010795c661, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.08
+      objectReference: {fileID: 0}
     - target: {fileID: 7785660472130087687, guid: 00610e08c31c0b94faa06a010795c661, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -300,7 +308,7 @@ GameObject:
   - component: {fileID: 1103065814}
   - component: {fileID: 1103065813}
   - component: {fileID: 1103065812}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Square (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
