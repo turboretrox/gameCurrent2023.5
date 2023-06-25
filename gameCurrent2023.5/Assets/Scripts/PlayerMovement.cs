@@ -112,9 +112,7 @@ public class PlayerMovement : MonoBehaviour
         if (isFacing && dirX < 0f || !isFacing && dirX > 0f)
         {
             isFacing = !isFacing;
-            Vector3 localScale = transform.localScale;
-            localScale.x *= -1f;
-            transform.localScale = localScale;
+            transform.Rotate(0f, 180f, 0f);
         }
     }
     private bool isGrournded()
