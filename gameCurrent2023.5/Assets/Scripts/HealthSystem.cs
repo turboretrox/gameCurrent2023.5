@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class HealthSystem : MonoBehaviour
 {
@@ -18,12 +19,12 @@ public class HealthSystem : MonoBehaviour
         {
             TakeDamage(1);
         }
-        else if(Input.GetKeyDown(KeyCode.O)) { Healer(1); }
-        if(currentHealth <= 0)
+        if (currentHealth <= 0)
         {
             currentHealth = 0;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 0);
         }
-        else if(currentHealth > maxHealth)
+        else if (currentHealth > maxHealth)
         {
             currentHealth = maxHealth;
         }
@@ -32,10 +33,12 @@ public class HealthSystem : MonoBehaviour
     {
         currentHealth -= amount;
         healthBar.SetHealth(currentHealth);
+
     }
     public void Healer(int amount)
     {
         currentHealth += amount;
         healthBar.SetHealth(currentHealth);
+
     } 
 }

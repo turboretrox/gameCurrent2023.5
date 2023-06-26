@@ -19,4 +19,5 @@ public class Attacking : MonoBehaviour
         Instantiate(bullet, AttackPos.position, AttackPos.rotation);
     }
 
+
 }
