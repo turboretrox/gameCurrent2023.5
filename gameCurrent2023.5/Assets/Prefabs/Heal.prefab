@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 445423079112839052}
   - component: {fileID: 445423079112839053}
   - component: {fileID: 445423079112839054}
+  - component: {fileID: 3687207739660552498}
   m_Layer: 0
   m_Name: Heal
   m_TagString: Heal
@@ -73,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
+  m_Sprite: {fileID: 8033092973025764044, guid: 67a98a2a398804f4181e0afc51c08ad8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -97,9 +98,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.07654655}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.42345345
 --- !u!114 &445423079112839054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -112,3 +113,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ae509af0c0d7634fb30970421fb7f39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &3687207739660552498
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 445423079112839055}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3aff9c58f61238f4d93be32a3697a1b4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
