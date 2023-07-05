@@ -8,6 +8,8 @@ TagManager:
   - Gems
   - Heal
   - Enemy
+  - Box
+  - DeathMeidcine
   layers:
   - Default
   - TransparentFX
